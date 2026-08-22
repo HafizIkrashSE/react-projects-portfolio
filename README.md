@@ -148,7 +148,3 @@ GitHub: [@HafizIkrashUE](https://github.com/HafizIkrashUE)
 
 ⭐ More React projects coming soon!
 
-```
-
-**One important thing:** replace `react-projects` in the clone command with the **actual name of your GitHub repository**.
-```
