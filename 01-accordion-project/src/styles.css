@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #07111f;
+  color: #eaf2ff;
+}
+
+/* Main wrapper */
+
+.acc-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 20px;
+  gap: 30px;
+}
+
+/* Multi-selection button */
+
+.acc-wrapper button {
+  border: 1px solid #3b82f6;
+  padding: 12px 24px;
+  border-radius: 30px;
+  background: #0d1b30;
+  color: #60a5fa;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.acc-wrapper button:hover {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Accordion */
+
+.accordion {
+  width: 100%;
+  max-width: 720px;
+}
+
+/* Accordion item */
+
+.item {
+  background: #0d1b30;
+  margin-bottom: 14px;
+  border: 1px solid #1e3a5f;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.item:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+/* Question */
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 22px;
+  color: #eaf2ff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.title:hover {
+  background: #122746;
+}
+
+.title h3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Plus icon */
+
+.title span {
+  min-width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3b82f6;
+  border-radius: 50%;
+  color: #60a5fa;
+  font-size: 21px;
+  transition: all 0.3s ease;
+}
+
+.title:hover span {
+  background: #3b82f6;
+  color: #ffffff;
+  transform: rotate(90deg);
+}
+
+/* Answer */
+
+.acc-content {
+  padding: 0 22px 22px;
+  color: #a9bdd6;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .acc-wrapper {
+    padding: 45px 15px;
+  }
+
+  .accordion {
+    max-width: 100%;
+  }
+
+  .title {
+    padding: 17px;
+  }
+
+  .title h3 {
+    font-size: 15px;
+  }
+
+  .title span {
+    min-width: 27px;
+    height: 27px;
+    font-size: 19px;
+  }
+
+  .acc-content {
+    padding: 0 17px 17px;
+    font-size: 14px;
+  }
+}
