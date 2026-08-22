@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.star-rating {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.star-rating h1 {
+  font-size: 40px;
+}
+
+.stars {
+  display: flex;
+  gap: 10px;
+}
+
+.star-rating p {
+  font-size: 20px;
+}
+
+.active {
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.inactive {
+  color: #000000;
+  cursor: pointer;
+}
