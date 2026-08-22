@@ -1,6 +1,3 @@
-Yes 👍 Add a **How to Run** section to the main README. Since each project is a separate Vite/React project, this is the cleanest method:
-
-````markdown
 ## 🚀 Projects
 
 | # | Project | Description |
