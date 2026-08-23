@@ -13,7 +13,7 @@
 
 ---
 
-## 🛠️ Technologies
+## 🛠️  Technologies
 
 - React.js
 - JavaScript (ES6+)
