@@ -46,7 +46,7 @@ cd react-projects
 
 ### 3. Choose a Project
 
-For example, to run the Food Recipe App:
+For example , to run the Food Recipe App:
 
 ```bash
 cd 08-FoodRecipeApp
