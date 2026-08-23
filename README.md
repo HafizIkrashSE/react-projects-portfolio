@@ -2,7 +2,7 @@
 
 | # | Project | Description |
 |---|---------|-------------|
-| 01 | **Accordion Project** | Interactive accordion using React state |
+| 01 | **Accordion Project** | Interactive accordion using React  state |
 | 02 | **Random Color Project** | Dynamic color generator |
 | 03 | **Star Rating Project** | Interactive star rating component |
 | 04 | **Image Slider Project** | Image slider with API integration |
