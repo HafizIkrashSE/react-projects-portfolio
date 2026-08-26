@@ -209,7 +209,7 @@ I will continue adding more React projects to this repository as I learn and bui
 
 ## 👨‍💻 Author
 
-**Hafiz Ikrash Riaz**
+**Hafiz Ikrash**
 
 GitHub: [@HafizIkrashSE](https://github.com/HafizIkrashSE)
 
